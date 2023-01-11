@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindMissingNumber"
+    android:background="@drawable/ic_backcopy">
+
+    <TextView
+        android:id="@+id/answer_missing_number1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/answer_missing_number2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/missing_number_guidline_ver1"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor3" />
+
+    <TextView
+        android:id="@+id/answer_missing_number2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/answer_missing_number3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/answer_missing_number1"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor3" />
+
+    <TextView
+        android:id="@+id/answer_missing_number3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/answer_missing_number4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/answer_missing_number2"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor3" />
+
+    <TextView
+        android:id="@+id/answer_missing_number4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/missing_number_guidline_ver2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/answer_missing_number3"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor3" />
+
+    <TextView
+        android:id="@+id/query_missing_number1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4286"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/query_missing_number2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/missing_number_guidline_ver1"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor1" />
+
+    <TextView
+        android:id="@+id/query_missing_number2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4286"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/query_missing_number3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/query_missing_number1"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor1" />
+
+    <TextView
+        android:id="@+id/query_missing_number3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4286"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/query_missing_number4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/query_missing_number2"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor1" />
+
+    <TextView
+        android:id="@+id/query_missing_number4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4286"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/missing_number_guidline_ver2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/query_missing_number3"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor1" />
+
+    <ImageView
+        android:id="@+id/exitMissingNumber"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_exit"
+        app:layout_constraintBottom_toTopOf="@id/missing_number_guidline_hor6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/missing_number_guidline_hor5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_ver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_ver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_hor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_hor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.39" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_hor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.61" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_hor4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_hor5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/missing_number_guidline_hor6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+</androidx.constraintlayout.widget.ConstraintLayout>

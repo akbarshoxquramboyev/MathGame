@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KenmaKetlik"
+    android:background="@drawable/ic_backcopy">
+
+    <ImageView
+        android:id="@+id/exitKetmaKetlik"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_exit"
+        app:layout_constraintBottom_toTopOf="@id/guideline_ketma_ketlik_hor_7"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_ketma_ketlik_hor_1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_hor_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_hor_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_hor_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_hor_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_hor_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.61" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_hor_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_ver_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_ketma_ketlik_ver_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_query_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_query_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline_ketma_ketlik_ver_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_2" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_query_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_query_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_query_1"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_2" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_query_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_query_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_query_2"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_2" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_query_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_query_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_query_3"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_2" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_query_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_query_6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_query_4"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_2" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_query_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_ketma_ketlik_ver_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_query_5"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_2" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_ans_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_ans_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline_ketma_ketlik_ver_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_4" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_ans_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_ans_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_ans_1"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_4" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_ans_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/kema_ketlik_ans_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_ans_2"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_4" />
+
+    <ImageView
+        android:id="@+id/kema_ketlik_ans_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_ketma_ketlik_hor_5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/guideline_ketma_ketlik_ver_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kema_ketlik_ans_3"
+        app:layout_constraintTop_toTopOf="@+id/guideline_ketma_ketlik_hor_4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

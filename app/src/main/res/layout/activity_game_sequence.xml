@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_backcopy"
+    tools:context=".GameSequence">
+
+    <LinearLayout
+        android:id="@+id/line_lay_sequence"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/lin_lay_drw"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_hor2"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_sequence_ver1"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_hor1"></LinearLayout>
+
+    <TextView
+        android:id="@+id/image_answer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textStyle="bold"
+        android:background="@drawable/text_view_drw"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/equals_sequence"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_ans2"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_ans1"/>
+
+    <ImageView
+        android:id="@+id/equals_sequence"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/equal"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toEndOf="@+id/line_lay_sequence"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_ans2"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_ans1"/>
+
+    <TextView
+        android:id="@+id/sequence_img1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/sequence_img2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/guideline_sequence_ver1"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_hor3" />
+
+    <TextView
+        android:id="@+id/sequence_img2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/sequence_img3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sequence_img1"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_hor3" />
+
+    <TextView
+        android:id="@+id/sequence_img3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/sequence_img4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sequence_img2"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_hor3" />
+
+    <ImageView
+        android:id="@+id/exitSequenceGame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_exit"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_hor7"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_hor1"/>
+
+    <TextView
+        android:id="@+id/sequence_img4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/ic_rectangle_4288"
+        app:layout_constraintBottom_toTopOf="@id/guideline_sequence_hor4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sequence_img3"
+        app:layout_constraintTop_toBottomOf="@id/guideline_sequence_hor3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_hor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_hor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_hor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66909975" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_hor4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9026764" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_ver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_ans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_ans2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_sequence_hor7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
