@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mathforeveryone">
+    package="com.math.mathforeveryone">
 
     <application
         android:allowBackup="true"
@@ -10,35 +10,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MathForEveryone">
         <activity
-            android:name=".KenmaKetlik"
+            android:name="com.math.mathforeveryone.KenmaKetlik"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".FindMissingNumber"
+            android:name="com.math.mathforeveryone.FindMissingNumber"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".GameSequence"
+            android:name="com.math.mathforeveryone.GameSequence"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".GameSubtract"
+            android:name="com.math.mathforeveryone.GameSubtract"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".RightAnswer"
+            android:name="com.math.mathforeveryone.RightAnswer"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".GameAdd"
+            android:name="com.math.mathforeveryone.GameAdd"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".ChooseCategory"
+            android:name="com.math.mathforeveryone.ChooseCategory"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.math.mathforeveryone.MainActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="landscape">
